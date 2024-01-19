@@ -1,0 +1,470 @@
+@media screen and (min-width:0px) and (max-width:767px) {
+
+
+    /*  */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        /* border-radius: 20px; */
+        background: #002E86;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: block;
+    }
+
+    .spaningClass {
+        display: block;
+        font-size: 38px;
+        color: #002E86;
+    }
+
+    .slider {
+        width: 78%;
+        margin: 40px 31px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 10ms;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+
+
+
+    /**/
+    .menuUtils {
+        display: none;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .paraTag {
+        font-size: 17px;
+        line-height: 150%;
+        text-align: left;
+
+    }
+
+    .paraTag a {
+        font-size: 17px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 28px 0px 30px;
+    }
+
+    .heroImg {
+        width: 100%;
+    }
+
+    .empowerFlex {
+        display: flex;
+        gap: 30px;
+        padding: 50px 0px;
+    }
+
+    .heroImg img {
+        width: 100%;
+    }
+
+    .heroUtils h3 {
+
+        font-size: 38px;
+        margin: 21px 0px;
+
+        line-height: 52px;
+
+    }
+
+    .heroUtils {
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .heroMain::after {
+        display: none;
+    }
+
+    .heroMain {
+        margin: 0px;
+    }
+
+    .empowerFlex {
+        flex-direction: column;
+    }
+
+    .empowerSecPara {
+
+        font-size: 40px;
+
+        letter-spacing: 0.44px;
+    }
+
+    .empowerSec2Anchortags {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .carderEmpower {
+
+
+        flex-direction: column;
+    }
+
+    .cardMin {
+        width: 100%;
+        background-size: cover;
+        background-color: #EBF2FF;
+        border-radius: 18px;
+        /* padding-left: 34px; */
+    }
+
+    .imgSec::after,
+    .imgSec::before {
+        display: none;
+    }
+
+    .seeThinkImg,
+    .seeThinkImgSec {
+        text-align: left;
+        width: 100%;
+    }
+
+    .seeThinkImg img {
+        width: 100%;
+    }
+
+    .seeThinkImgSec p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .slidingSec {
+        padding: 34px 0px 1px 1px;
+    }
+
+    .seeThinkImgSec h3 {
+        text-align: left;
+        font-size: 34px;
+    }
+
+
+
+    .slidingPara {
+
+        text-align: left;
+
+        font-size: 43px;
+
+        line-height: normal;
+
+    }
+
+    .slidingPara p {
+        font-size: 33px;
+        margin-left: 30px;
+    }
+
+    .sliderCard {
+
+        gap: 25px;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sliderCardUtil p {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 160%;
+        margin-right: 0;
+
+
+    }
+
+    .sliderCard img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .sliderCardUtil h3 {
+        color: #FFF;
+        font-size: 20px;
+        margin-top: 29px;
+        margin-bottom: 2px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .slick-next:before {
+        /* content: '→'; */
+        content: '';
+        background-image: url(../Favicons/rightIndi.png);
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 19px 19px;
+        top: 45px;
+        background-color: rgba(94, 182, 228, 0.15);
+        border-radius: 32px;
+        padding: 9px;
+        background-position: center;
+        left: -14px;
+    }
+
+    .slick-prev:before {
+        /* content: '←'; */
+        content: '';
+        background-image: url(../Favicons/leftIndi.png);
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 19px 19px;
+        top: 45px;
+        background-color: rgba(94, 182, 228, 0.15);
+        border-radius: 32px;
+        padding: 9px;
+        background-position: center;
+        left: 48px;
+    }
+
+    .showResultsUtils {
+        flex-direction: column;
+    }
+
+    .showResultsImage1 img,
+    .showResultsImage2 img {
+        z-index: -1;
+    }
+
+    .showResultsImage1 img {
+        top: -4px;
+    }
+
+    .showResultsImage2 img {
+        top: 81px;
+    }
+
+    .showResultsCards h3 {
+        font-size: 70px
+    }
+
+    .showResultsCards {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .startGrowingUtils img {
+        width: 100%;
+        margin-bottom: -5px;
+        margin-top: 35px;
+    }
+
+    .sectionUtils {
+        flex-direction: column;
+        margin: 12px 0;
+        gap: 10px;
+    }
+
+    .imgPartner:last-child img {
+        width: 100%;
+
+    }
+
+    .sectionLeft {
+        /* margin: 12px 0; */
+        width: 100%;
+        padding: 29px 15px 30px 15px;
+
+    }
+
+    .sectionRight {
+        width: 100%;
+
+        padding: 42px 0;
+        padding-left: 15px;
+        padding-right: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .sectionRight img {
+        width: 100%;
+        margin-bottom: -42px;
+    }
+
+    .flexy {
+        margin-top: 10px;
+    }
+
+    .info2 {
+        width: 100%;
+    }
+
+    .grouper {
+        width: 100%;
+        margin-top: -24px;
+    }
+
+    .grouperText h3 {
+
+        font-size: 32.083px;
+
+
+    }
+
+    .partnerPara p {
+
+        margin-top: 43px;
+        font-size: 29.839px;
+        margin-bottom: 0px;
+
+    }
+
+    .flexPartner {
+
+        gap: 10px;
+
+        align-items: baseline;
+        margin-bottom: 64px;
+        flex-direction: column;
+    }
+
+    .downloadPara p {
+        color: #FFF;
+        font-size: 28.839px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.578px;
+    }
+
+    .downloadItemsUtils {
+        display: flex;
+        border-radius: 15.203px;
+        background: linear-gradient(180deg, #002E86 0%, #002366 100%);
+        gap: 20px;
+        /* justify-content: space-around; */
+        padding: 18px 5px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .downloadItems {
+        display: flex;
+        margin: 16px 0;
+        padding: 0px;
+        background-color: white;
+        border-radius: 45px;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .downloadUtils {
+        width: 100%;
+    }
+
+    .downloadItems p:nth-child(3) {
+
+        font-size: 17px;
+
+    }
+
+    .downloadItems p:nth-child(2) {
+
+        font-size: 17px;
+
+    }
+
+    .downloadPara {
+        width: 100%;
+    }
+
+    .footerRight p {
+
+        text-align: left;
+
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.16px;
+    }
+
+    .footers {
+        width: 100%;
+    }
+
+    .footers,
+    .footerLeft {
+        flex-direction: column;
+    }
+
+    .footerLeft {
+        gap: 42px;
+        width: 100%;
+    }
+
+
+
+
+    .linksSocial {
+        display: flex;
+        justify-content: left;
+        gap: 16px;
+        margin-bottom: 16px;
+        margin-top: 40px;
+    }
+
+    .footerRight p {
+        color: rgba(0, 0, 0, 0.58);
+        text-align: left;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: -0.16px;
+    }
+
+    .privacyUse a:last-child {
+        display: none;
+    }
+
+    .imgSec {
+        margin-top: -16px !important;
+        margin-bottom: 50px;
+    }
+
+    .imgPartner {
+        width: 100%;
+        text-align: left;
+        padding: 34px 42px 10px 13px;
+    }
+}

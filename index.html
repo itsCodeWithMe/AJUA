@@ -13,14 +13,17 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="my.css">
+    <link rel="stylesheet" href="responsiveness.css">
 </head>
 
 <body>
     <header>
         <div class="paraTag">
-            <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
-                aliquet odio</p>
-            <p><a href="#"> Read News</a></p>
+            <div class="container">
+                <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
+                    aliquet odio<a href="#"> Read News</a></p>
+
+            </div>
 
         </div>
         <div class="container">
@@ -51,6 +54,14 @@
                                 Demo</a>
                         </li>
                     </ul>
+                </div>
+                <span class="spaningClass" style="cursor:pointer" onclick="openNav()">&#9776; </span>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">The Solution</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -98,7 +109,7 @@
                         <h4>Customer Experience</h4>
                         <h2>Elevate Customer Delight with Data-Driven Insights.</h2>
                         <p>Understand, engage, and exceed customer expectations. Your path to loyalty.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More <img src="Favicons/chevron-right.svg" alt=""></a>
                     </div>
                     <img src="Favicons/empower-card11.png" alt="">
                 </div>
@@ -107,7 +118,7 @@
                         <h4>Customer Experience</h4>
                         <h2>Elevate Customer Delight with Data-Driven Insights.</h2>
                         <p>Understand, engage, and exceed customer expectations. Your path to loyalty.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More <img src="Favicons/chevron-right.svg" alt=""></a></a>
                     </div>
                     <img src="Favicons/empower-card11.png" alt="">
                 </div>
@@ -116,7 +127,7 @@
                         <h4>Customer Experience</h4>
                         <h2>Elevate Customer Delight with Data-Driven Insights.</h2>
                         <p>Understand, engage, and exceed customer expectations. Your path to loyalty.</p>
-                        <a href="#">Learn More</a>
+                        <a href="#">Learn More <img src="Favicons/chevron-right.svg" alt=""></a></a>
                     </div>
                     <img src="Favicons/empower-card11.png" alt="">
                 </div>
@@ -144,7 +155,7 @@
     </section>
 
     <section class="slidingSection">
-        <d class="container">
+        <div class="container">
             <div class="slidingSec">
                 <div class="slidingPara">
                     <p>Hear from the <br> best CX leaders</p>
@@ -323,7 +334,7 @@
                         </div>
                     </div>
                     <div class="sectionLeftMini">
-                        <img src="Favicons/sectionLeftImg21.svg" alt="">
+                        <img src="Favicons/sectionLeftImg23.svg" alt="">
                         <div class="sectionLeftInfo">
                             <h4>Custom Survey</h4>
                             <p>Create your own survey from scratv</p>
@@ -454,6 +465,15 @@
                 infinite: true
             });
         });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
     </script>
 </body>
 
